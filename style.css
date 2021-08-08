@@ -45,7 +45,7 @@ span{
 .logo:hover{
     color: var(--color);
 }
-nav h2{
+nav h3{
     /* background-color: black; */
     text-align: end;
 }
@@ -139,6 +139,7 @@ nav h2{
 @media(max-width:475px){
     .one{
         width:100%;
+        padding: 20px;
     }
     .container{
         width: 100%;
@@ -146,11 +147,20 @@ nav h2{
     .jahirat p{
         font-size: 1rem;
         }
-        .nav{
-            align-items: center;
-        }
-        .nav_list{
-            /* width: 80%; */
+        .nav h3{
             text-align: center;
         }
+        .nav_list{
+            text-align: center;
+        }
+       .nav_list{
+           flex-wrap: wrap;
+           /* width: 20%; */
+           text-align: center;
+           /* margin-top: 1rem; */
+       } 
+       .nav_item{
+           margin-top: 1rem;
+       }
+        
 }
